@@ -6,9 +6,9 @@ import random, os, io
 app = Flask(__name__)
 
 # Paths for images and fonts — change if needed
-OPAY_TEMPLATE = "/storage/emulated/0/Download/opay/receipt/opay.jpg"
-MON_TEMPLATE = "/storage/emulated/0/Download/opay/receipt/mon.jpg"
-ROBOTO_DIR = "/storage/emulated/0/Download/roboto/static"  # expects Roboto-Bold.ttf and Roboto-Regular.ttf
+OPAY_TEMPLATE = "opay.jpg"
+MON_TEMPLATE = "mon.jpg"
+ROBOTO_DIR = "Roboto-Bold.ttf, Roboto-Regular.ttf"
 
 css_style = """
 <style>
